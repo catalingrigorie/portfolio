@@ -1,0 +1,33 @@
+@import '../../variables.css';
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    padding: 0 10px;
+}
+
+.List {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.List li {
+    min-width: 70px;
+}
+
+.Name {
+    font-size: 21px;
+    text-decoration: none;
+    color: #000;
+}
+
+@media only screen and (min-width: 768px) {
+    .Nav {
+        max-width: 1200px;
+        padding: 0 3%;
+        margin: 0 auto;
+    }
+}
